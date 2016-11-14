@@ -1,0 +1,107 @@
+body{
+    background-color: #E5BDB5; /*#AA6288;*/
+}
+
+.head{
+    font-size: 2em;
+    text-align: center;
+    color: #E28679;
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: #D8CC5E;
+    padding: 2%;
+    border-bottom: 0.2em dashed #FFF9E3;
+}
+h2{
+    background-color: #FFF9E3; /*#D8CC5E;*/
+    margin-bottom: 5%;
+    height: 3em;
+}
+
+.book1{
+    height: 26em;
+    min-height: 26em;
+    margin-top: 3%;
+    margin-left: 1%
+}
+
+.book{
+    background-color: #D8CC5E;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1em double #FFF9E3;
+}
+img{
+    margin-left: 7%;
+    margin-bottom: 4%;
+}
+
+.number{
+    color: #FFF9E3;
+    font-size: 2em;
+    padding-top: 2%;
+    font-family: "Comic Sans MS", sans-serif;
+
+}
+
+.delete button{
+    float:left;
+    width: 50%;
+}
+
+.book:hover{
+    background-color: lightcoral;
+}
+
+.book .delete{
+    display: none;
+}
+
+div.book:hover .delete{
+    display: inline;
+}
+
+.plus{
+    margin-left:0;
+    width:160px;
+    height: 160px;
+    margin-bottom: 16%;
+}
+
+.pagination{
+    margin-left: 45%;
+}
+.pagination ul li a{
+    background-color: #FFF9E3;
+    color: black;
+}
+
+.pagination ul li a:hover{
+    color: #E2A2B2;
+}
+
+.form{
+    padding:2%;
+    border: 1em double #FFF9E3;
+    background-color: #D8CC5E;
+    margin-left: 5%;
+    margin-top:3%;
+}
+
+.image{
+    margin-top: 3%;
+}
+
+.image img{
+    border: 1em double #173B4B;
+    width: 100%;
+    height:27em;
+}
+
+.success{
+    background-color: #D8CC5E;
+    color:#FFF9E3;
+    border:1em double #FFF9E3;
+    text-align: center;
+    margin-top: 3%;
+}
